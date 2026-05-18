@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Random Dogs - Dog Breed Explorer</title>
+        <title>Breed Details - Dog Breed Explorer</title>
         <link rel="stylesheet" href="styles.css">
     </head>
 
@@ -21,15 +21,13 @@
                     <button onclick="window.location.href='index.html'" class="btn btn-back">← Back to Home</button>
                 </div>
 
-                <!-- Random Dog Results -->
-                <div id="randomResults" class="results-section">
-                    <h2>Random Dog Images</h2>
-                    <div id="randomDogContainer" class="random-dog-container"></div>
+                <!-- Breed Results -->
+                <div id="breedResults" class="results-section">
+                    <h2 id="breedTitle"></h2>
+                    <div id="breedContent"></div>
                     <div class="navigation-buttons">
                         <button onclick="window.location.href='index.html'" class="btn btn-back">← Back to Home</button>
-                        <button onclick="window.location.href='index.html'" class="btn btn-search">Search Breeds
-                            →</button>
-                        <button onclick="location.reload()" class="btn btn-random">Get More Dogs</button>
+                        <button onclick="window.location.href='random-results.html'" class="btn btn-random">Random Dogs →</button>
                     </div>
                 </div>
             </main>
@@ -39,7 +37,7 @@
             </footer>
         </div>
 
-        <!-- Error -->
+        <!-- Error Modal -->
         <div id="errorModal" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
@@ -49,5 +47,7 @@
             </div>
         </div>
 
-        <script src="random-results.js"></script>
+        <script src="breed-results.js"></script>
     </body>
+
+</html>
