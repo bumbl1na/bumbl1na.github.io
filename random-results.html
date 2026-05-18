@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random Dogs - Dog Breed Explorer</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1>🐕 Dog Breed Explorer</h1>
+                <p>Discover dog breeds and adorable puppy pictures!</p>
+            </header>
+
+            <main>
+                <!-- Back Button -->
+                <div class="back-button-container">
+                    <button onclick="window.location.href='index.html'" class="btn btn-back">← Back to Home</button>
+                </div>
+
+                <!-- Random Dog Results -->
+                <div id="randomResults" class="results-section">
+                    <h2>Random Dog Images</h2>
+                    <div id="randomDogContainer" class="random-dog-container"></div>
+                    <div class="navigation-buttons">
+                        <button onclick="window.location.href='index.html'" class="btn btn-back">← Back to Home</button>
+                        <button onclick="window.location.href='index.html'" class="btn btn-search">Search Breeds
+                            →</button>
+                        <button onclick="location.reload()" class="btn btn-random">Get More Dogs</button>
+                    </div>
+                </div>
+            </main>
+
+            <footer>
+                <p>Powered by Dog API | Created with ❤️</p>
+            </footer>
+        </div>
+
+        <!-- Error Modal -->
+        <div id="errorModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>❌ Oops! Something went wrong</h2>
+                <p id="errorMessage"></p>
+                <button id="errorBtn" class="btn btn-search">Try Again</button>
+            </div>
+        </div>
+
+        <script src="random-results.js"></script>
+    </body>
