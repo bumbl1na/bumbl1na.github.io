@@ -1,12 +1,14 @@
 # ctd-dog-breed-api
-a simple website showing API usage for Code The Dream Pre-work Assignment
+A simple website showing API usage for Code The Dream Pre-work Assignment
 HOW TO USE: 
-Clone the repository or save to your system 
-**Open `index.html`** in your web browser
-   - Double-click the `index.html` file, OR
-   - Right-click and select "Open with" → Choose your browser
+1. Go to https://bumbl1na.github.io/ skip to step 2 or follow steps a-d below
+  a. Clone the repository or save to your system 
+      b.  **Open `index.html`** in your web browser
+      c. - Double-click the `index.html` file, OR
+      d. - Right-click and select "Open with" → Choose your browser
 
-That's it! The website is now ready to use! 🎉
+2. That's it! The website is now ready to use! 🎉
+HOW TO USE THE SITE: 
 Searching for a Dog Breed
  **Home Page** 
     **Type a breed name** in the search box  Examples: "labrador", "golden retriever", "poodle", "bulldog", "husky", "german shepherd"
@@ -49,6 +51,5 @@ If something goes wrong, you'll see a popup error message:
 **Created with ❤️ using the Dog API**
 
 For more information about the Dog API, visit: https://thedogapi.com/
-
 
 Have fun exploring amazing dog breeds and looking at adorable puppy photos!
