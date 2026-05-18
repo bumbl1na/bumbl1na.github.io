@@ -1,7 +1,7 @@
 const API_KEY = 'live_GS724x7xKWJlfykRrECSCcDjhNAnx95fbs9qTzwn6opSd4PMGAXAiyO6bEkVo6J6';
 const API_BASE_URL = 'https://api.thedogapi.com/v1';
 
-// Error Modal Elements
+// Error  Elements
 const errorModal = document.getElementById('errorModal');
 const errorMessage = document.getElementById('errorMessage');
 const errorBtn = document.getElementById('errorBtn');
@@ -22,12 +22,12 @@ function showError(message) {
     errorModal.classList.add('show');
 }
 
-// Close Error Modal
+// Close Error
 function closeErrorModal() {
     errorModal.classList.remove('show');
 }
 
-// Handle Random Dogs
+// Random Dogs
 async function loadRandomDogs() {
     try {
         const randomDogContainer = document.getElementById('randomDogContainer');
