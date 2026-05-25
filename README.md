@@ -21,7 +21,7 @@ Or run locally:
 ### Random Dog Images
 
 - Click **Get Random Dog**
-- View 6 random dog photos in a responsive grid
+- View 6 random dog photos 
 - Click **Get More Dogs** to load more images
 
 ### Navigation for all pages
