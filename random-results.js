@@ -14,7 +14,7 @@ errorModal.addEventListener('click', (e) => {
     if (e.target === errorModal) closeErrorModal();
 });
 
-// Functions
+
 
 // Show Error Modal
 function showError(message) {
